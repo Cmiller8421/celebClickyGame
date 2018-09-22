@@ -98,7 +98,6 @@ class App extends Component {
             image={friend.image}
             // isClicked ={friend.isClicked}
             count={this.state.count}
-            winnerResult={this.winnerResult}
             handleClick={this.handleItemClick} />
 
         ))}
